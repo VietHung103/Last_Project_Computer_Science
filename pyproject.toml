@@ -1,0 +1,53 @@
+[project]
+name = "png2svg-viethung103"
+version = "0.1.0"
+description = "This package can transfrom the low resolution in PNG format to high resolution in SVG format."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "UL/Centrale"}
+authors = [{name = "Viet Hung", email = "viethungpc103@gmail.com"}]
+
+dependencies = [
+    "pillow>=12.3.0",
+]
+
+[project.scripts]
+png2svg = "png2svg.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "png2svg"
+
+[dependency-groups]
+dev = [
+    "marimo>=0.25.1",
+    "mypy>=2.4.0",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.16.10",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]   # pyflakes, pycodestyle, isort, pyupgrade, bugbear
+
+[tool.mypy]
+strict = true
+files = ["src"]
+
+[tool.coverage.run]
+source = ["src"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 90
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
