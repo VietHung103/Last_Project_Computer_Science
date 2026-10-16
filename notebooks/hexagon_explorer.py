@@ -35,7 +35,7 @@ def _():
 
 @app.cell
 def _():
-    upload = mo.ui.file(filetypes=[".png"], kind="area", label="Pick a SVG Picture")
+    upload = mo.ui.file(filetypes=[".png"], kind="area", label="Pick a PNG Picture")
     size = mo.ui.slider(4,40, value=12, step=1, label="Choose the hexagon size", show_value=True)
     mo.vstack([upload,size])
     return size, upload
