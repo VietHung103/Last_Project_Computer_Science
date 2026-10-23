@@ -37,12 +37,22 @@ last-project
     |______ requirement.txt
 ```
 ## Result of this project
-- The publish package using PyPI, everyone can search the package on the Internet by the link: [text](https://pypi.org/project/png2svg-viethung103/),
+- The publish package using PyPI, everyone can search the package on the Internet by the link: [link package](https://pypi.org/project/png2svg-viethung103/),
 and using **pip install png2svg-viethung103** to install the package.
 
 - The publish webpage for hexagon explorer, you can upload the image of PNG Format and choose the hexagon size that you want, the result of Hexagon
-format will be present in the bottom of the webpage. You can also download this image to your laptop. The link of webpage: [text](https://viethung103.github.io/Last_Project_Computer_Science/)
+format will be present in the bottom of the webpage. You can also download this image to your laptop. The link of webpage: [webpage link](https://viethung103.github.io/Last_Project_Computer_Science/)
 
 <p align="center">
     <img src="webpage_demo.png" width="600">
+<p>
+
+**Input Image**
+<p align="center">
+    <img src="images/screenshot.png" width="600">
+<p>
+
+**Output Image**
+<p align="center">
+    <img src="result.svg" width="600">
 <p>
