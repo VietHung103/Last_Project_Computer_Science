@@ -1,6 +1,6 @@
 [project]
 name = "png2svg-viethung103"
-version = "0.1.1"
+version = "0.2.0"
 description = "This package can transfrom the low resolution in PNG format to high resolution in SVG format."
 readme = "README.md"
 requires-python = ">=3.11"
