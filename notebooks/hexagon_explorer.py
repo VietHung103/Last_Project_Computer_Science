@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
-#     "png2svg-viethung103",
+#     "png2svg-viethung103>=0.2.0",
 #     "marimo>=0.10",
 #     "pillow",
 # ]
