@@ -36,7 +36,7 @@ last-project
     |
     |______ requirement.txt
 ```
-## Result of this project
+## Result of this project in the Initial Version
 - The publish package using PyPI, everyone can search the package on the Internet by the link: [link package](https://pypi.org/project/png2svg-viethung103/),
 and using **pip install png2svg-viethung103** to install the package.
 
